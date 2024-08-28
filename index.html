@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Burger King</title>
+</head>
+
+<body>
+<form name="Rishi">	
+	<table border="2" height="700" width="550" align="center" bgcolor="#E5E4DD">
+		<tr>
+			<td colspan="4" align="center" height="100" bgcolor="black"><font size="15" color="#FC5603"><img height="45" width="85" img src="D:\New folder\Burger-King.png"><b><u>BURGER KING</b></u></font> </td>
+		</tr>
+		
+		<tr>
+			<td align="center"> Order ID:</td>
+			<td align="center"><input type="text" name="fno" placeholder="ID No"/></td>
+			<td  colspan="2" rowspan="4" align="center"  class="img-box"><img src="D:\New folder\burgerking.webp" height="150" width="150"></td>
+			
+		</tr>
+		<tr>
+			<td align="center">Customer Name:</td>
+			<td align="center"><input type="text" name="Cno" placeholder="Name of customer"/></td>
+			
+			
+		</tr>
+		<tr>
+			<td align="center">Mobile No.</td>
+		<td align="center"><input type="text" name="Mno" placeholder="mobile"/></td>
+			
+			
+		</tr>
+		<tr>
+			<td align="center">E-mail ID:</td>
+			<td align="center"><input type="text" name="Email" placeholder="E-mail"/></td>
+		
+		</tr>
+		<tr>
+			<td align="center">Choose Items:</td>
+			<td colspan="3"><input type="checkbox" name="clk1" onclick="amount()">Normal Burger:300/-</input><br/>
+					<input type="checkbox" name="clk2" onclick="amount()">Special Burger:400/-</input><br/>
+					<input type="checkbox" name="clk3" onclick="amount()">Extra cheese Burger:450/-</input><br/>
+					<input type="checkbox" name="clk4" onclick="amount()">chicken Burger:500/-</input><br/>
+					<input type="checkbox" name="clk5" onclick="amount()">Burger with Fries:550/-</input><br/>
+					<input type="checkbox" name="clk6" onclick="amount()">Coaldrink:50/-</input><br/>
+</td>
+
+
+		</tr>
+		<tr>
+			<td align="center">Total Amount:</td>
+			<td colspan="3" align="center"><input type="text" name="tamt" readonly/></td>
+			
+		</tr>
+		<tr>
+			<td align="center">Gst(in %)</td>
+			<td colspan="3" align="center"><input type="text" name="Gst" placeholder="8% included all charges" onclick="amount()" readonly></input></td>
+			
+		</tr>
+		<tr>
+			<td align="center">Net Amount:</td>
+			<td colspan="3" align="center"><input type="text" name="namt" onclick="amount()" readonly/></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><button onclick="window.home()">Home</button>&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" name="Reset"></input>&nbsp;&nbsp;&nbsp;&nbsp;<button onclick="window.print()">Print</button></td>
+		</tr>
+
+</table>
+</body>
+</head>
+</html>
